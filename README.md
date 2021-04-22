@@ -20,4 +20,4 @@ This project contains 3 major parts :
 
 1. deploy.py : This contains the code that classifies input as spam/not spam using the Naive Bayes algorithm ( with 72% accuracy)
 2. templates : This folder contains the HTML template that allows users to input data and detect spam
-3. ham_spam.csv : The csv file use to train the model
+3. ham_spam.csv : The csv file used to train the model

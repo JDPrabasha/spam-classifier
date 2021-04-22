@@ -1,10 +1,10 @@
 # Spam Classifier
 
-A spam classifier that classifies user input as spam/not spam. 
+A spam classifier that classifies user input as spam/not spam
 
 To run :
 
-Clone repository and run deploy.py
+Clone repository and run deploy.py. Application will be served at http://localhost:8000/
 
 ## Prerequisites
 

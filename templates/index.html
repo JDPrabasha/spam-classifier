@@ -10,15 +10,21 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='style.css') }}"
+    />
     <title>Document</title>
   </head>
   <body>
-    <div class="login container mt-4">
-      <h1 class="display-1">Detect Spam</h1>
+    <div class="login container mt-4 center">
+      <h1 class="display-1">
+        <span class="purple">Detect</span><span class="white"> Spam</span>
+      </h1>
       <!-- Main Input For Receiving Query to our ML -->
       <form action="/predict" method="post">
         <input
-          class="form-control mb-4"
+          class="form-control mb-3 input-box"
           type="text"
           name="emailtext"
           placeholder="Email Text"
@@ -26,7 +32,7 @@
         />
         <button
           type="submit"
-          class="btn btn-success fw-bold text-uppercase btn-block btn-large"
+          class="btn btn-success fw-bold btn-block btn-lg mt-5"
         >
           Check
         </button>
